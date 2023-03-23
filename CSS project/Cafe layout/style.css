@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    margin-top: -20px;
+    background-color: #f7cc90;
+    border-radius: 4px;
+    margin-top: -15px;
+
+
+
+
+}
+
+/* Navbar items */
+
+.navbar li {
+    display: flex;
+    float: left;
+    padding: 12px;
+    font-size: 22px;
+    list-style: none;
+    align-self: flex-start;
+
+
+
+}
+
+/* Navbar ul */
+
+.navbar ul {
+    overflow: auto;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+/* Nav Menu hover */
+
+.navbar ul :hover {
+    color: rgb(203, 58, 229);
+
+}
+
+
+/* Menu links */
+.navbar ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+/* CAFE main pic */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: -10px;
+    overflow: auto;
+    opacity: 0.9;
+
+}
+
+/* main cafe code pic  */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+/* food pics code */
+.row {
+    transition: 0.5s;
+    display: flex;
+}
+
+
+/* food pic align     */
+.menu {
+    flex-direction: row;
+    width: 20%;
+    margin: auto;
+
+}
+
+
+/* food pic hover */
+.menu :hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.0);
+
+}
+
+
+/* pics text and paragraph */
+h5,
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #4a2b00;
+    overflow: auto;
+
+
+}
+
+
+/* pic text and text color  */
+p {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    color: #ff9500;
+
+}
+
+
+/* FOOD PIC TEXT BOTTOM HOVER  */
+.card2 {
+    box-shadow: none;
+    border-radius: 0%
+}
+
+/* FOOD PIC TEXT BOTTOM HOVER  */
+.card2 :hover {
+    box-shadow: none;
+
+}
+
+
+/* WHAT WE OFFER/OUR LOCATION     */
+.offer {
+    text-align: center;
+    padding: 20px;
+    /* color: rgb(142, 0, 0); */
+    font-size: 23px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    background-color: #f7cc90;
+}
+
+
+
+/* OUR LOCATION CODE  */
+h2 {
+    overflow: auto;
+    background-color: #f7cc90;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(69, 44, 11);
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+
+}
+
+
+/* WHAT WE OFFER OVERFLOW */
+h3 {
+    overflow: auto;
+}
+
+
+
+/* LOCATION PICS CODE */
+.place {
+    /* border-radius: 20px; */
+    width: 100%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    display: flex;
+}
+
+
+
+/* LOCATION PICS CODE */
+.placeimg {
+    flex-direction: row;
+    width: 18%;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    background-size:cover;
+}
+
+
+/* PIC BORDER RADIOUS  */
+.krish {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+/* PIC SHADOW  */
+.krish:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+
+}
+
+
+/* why us line */
+.whyus {
+    background-color: #ffb752;
+    text-align: center;
+    color: #4a2b00;
+    margin: auto;
+    overflow: auto;
+}
+
+/* why us and staff photo div */
+.box2 {
+    display: flex;
+    overflow: auto;
+
+}
+
+
+/* why us box code */
+.box3 {
+    margin-top: 12px;
+
+}
+
+
+/* why us text code */
+.text2 {
+    font-size: 19px;
+    color: #4a2b00;
+    background-color: #ff9500;
+    margin-top: -10px;
+    padding: 15PX 15px;
+}
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    background-color: rgb(255, 228, 164);
+    margin: auto;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+/* form label */
+.label1 {
+    text-align: center;
+    background-color: rgb(255, 250, 250);
+    border-color: rgb(255, 228, 164);
+    ;
+}
+
+
+/* form button */
+.btn {
+    /* width: 19%; */
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color: black;
+    border-color: #4a2b00;
+    overflow: auto;
+    display: table;
+    clear: both;
+}
+
+
+/* textareascroll */
+#textarea {
+    resize: none;
+}
+
+
+/* button hover */
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(238, 154, 36, 0.645);
+    box-shadow: 0 8px 16px 0 rgba(239, 30, 30, 0.2), 0 6px 20px 0 rgba(218, 31, 31, 0.19);
+    color: rgb(0, 0, 0);
+
+
+}
+
+.icons{
+    height: 60px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e4040;
+    
+}
+
+/* .iconsize{
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+} */
+
+.iconsize:hover{
+    cursor: pointer;
+    /* background-color: rgba(238, 154, 36, 0.645); */
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19) ;
+    color: rgb(255, 255, 255);
+}
